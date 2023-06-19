@@ -9,7 +9,7 @@
   background-color: var(--color-purple-main);
 }
 * ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
   background: var(--color-purple-light);
 }
 * ::-webkit-scrollbar-thumb {
@@ -41,7 +41,7 @@
   display: flex;
   color: white;
   text-decoration: none;
-  max-width: 80px;
+  width: 80px;
   transition: 0.1s ease-in-out;
 }
 * a:hover {
@@ -62,7 +62,6 @@
 }
 
 body {
-  margin-inline: 1rem;
-  background-color: hsl(0, 0%, 0%);
-  background-image: radial-gradient(at 2% 3%, hsl(247, 71%, 4%) 0px, transparent 50%), radial-gradient(at 91% 58%, hsl(237, 39%, 4%) 0px, transparent 50%), radial-gradient(at 51% 44%, hsl(262, 87%, 10%) 0px, transparent 50%), radial-gradient(at 12% 96%, hsl(240, 58%, 8%) 0px, transparent 50%), radial-gradient(at 24% 38%, hsl(233, 100%, 26%) 0px, transparent 50%), radial-gradient(at 73% 62%, hsl(240, 100%, 23%) 0px, transparent 50%), radial-gradient(at 84% 97%, hsl(264, 100%, 7%) 0px, transparent 50%), radial-gradient(at 89% 14%, hsl(243, 94%, 12%) 0px, transparent 50%);
+  background-color: hsl(0, 0%, 8%);
+  background-image: radial-gradient(at 85% 27%, hsl(257, 85%, 4%) 0px, transparent 50%), radial-gradient(at 22% 20%, hsl(257, 85%, 4%) 0px, transparent 50%), radial-gradient(at 63% 25%, hsl(239, 41%, 23%) 0px, transparent 50%), radial-gradient(at 79% 75%, hsl(257, 85%, 4%) 0px, transparent 50%), radial-gradient(at 13% 65%, hsl(257, 86%, 4%) 0px, transparent 50%), radial-gradient(at 49% 61%, hsl(239, 42%, 23%) 0px, transparent 50%);
 }/*# sourceMappingURL=global.css.map */
