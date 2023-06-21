@@ -215,6 +215,7 @@ main {
 .recommend {
   display: flex;
   margin-top: 60px;
+  margin-bottom: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -235,7 +236,6 @@ main {
       padding: 10px;
       flex-direction: column;
       border-radius: 1rem;
-      justify-content: center;
       align-items: center;
       border: 1px solid var(--color-purple-main);
 
@@ -251,19 +251,35 @@ main {
         border: 2px solid var(--color-purple-main);
       }
       .person {
-        h2 {
+        text-align: center;
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+        a {
+          i {
+            padding: 5px;
+          }
           text-align: center;
-          font-weight: 200;
+          width: 100%;
+          display: flex;
+          align-items: center;
           font-size: 1.5rem;
+          flex-direction: row;
           line-height: 30px;
           letter-spacing: 0.25px;
           margin-top: 15px;
-          margin-bottom: 10px;
-          cursor: default;
+          margin-bottom: auto;
+          cursor: pointer;
+          &:hover {
+            font-weight: normal;
+            color: var(--color-purple-light);
+            text-decoration: none;
+          }
         }
         p {
           font-weight: 400;
-          font-size: 1rem;
+          font-size: 0.875rem;
           line-height: 28px;
           letter-spacing: 0.44px;
           text-align: initial;
@@ -276,65 +292,65 @@ main {
   }
 }
 
-.contact {
-  display: flex;
-  margin-top: 60px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
-  background-color: none;
+// .contact {
+//   display: flex;
+//   margin-top: 60px;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+//   flex-wrap: wrap;
+//   background-color: none;
 
-  &__container {
-    margin-bottom: 100px;
-    .form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 24px;
-      gap: 14px;
-      max-width: 447px;
-      width: 100vw;
-      background: #26292d3f;
-      border-radius: 8px;
-      border: 1px solid var(--color-purple-main);
-      -webkit-box-shadow: 10px 17px 32px 0px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 17px 32px 0px rgba(0, 0, 0, 0.75);
-      box-shadow: 10px 17px 32px 0px rgba(0, 0, 0, 0.75);
-      .inputs {
-        padding: 9px 5px;
-        outline: none;
-        border-radius: 5px;
-        border: 2px solid var(--color-purple-main);
-        width: 100%;
-        box-sizing: border-box;
-        transition: 0.3s;
-        background-color: var(--color-white-smoke);
-        color: #121212;
-      }
-      .inputs:focus {
-        border-color: var(--color-purple-light);
-      }
+//   &__container {
+//     margin-bottom: 100px;
+//     .form {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       padding: 24px;
+//       gap: 14px;
+//       max-width: 447px;
+//       width: 100vw;
+//       background: #26292d3f;
+//       border-radius: 8px;
+//       border: 1px solid var(--color-purple-main);
+//       -webkit-box-shadow: 10px 17px 32px 0px rgba(0, 0, 0, 0.75);
+//       -moz-box-shadow: 10px 17px 32px 0px rgba(0, 0, 0, 0.75);
+//       box-shadow: 10px 17px 32px 0px rgba(0, 0, 0, 0.75);
+//       .inputs {
+//         padding: 9px 5px;
+//         outline: none;
+//         border-radius: 5px;
+//         border: 2px solid var(--color-purple-main);
+//         width: 100%;
+//         box-sizing: border-box;
+//         transition: 0.3s;
+//         background-color: var(--color-white-smoke);
+//         color: #121212;
+//       }
+//       .inputs:focus {
+//         border-color: var(--color-purple-light);
+//       }
 
-      .formbutton {
-        padding: 12px;
-        font-size: 1rem;
-        outline: none;
-        border: none;
-        border-radius: 5px;
-        margin-top: 1rem;
-        background-color: var(--color-purple-light);
-        color: var(--color-white-smoke);
-        cursor: pointer;
-        transition: 0.3s;
-      }
-      .formbutton:hover {
-        background-color: var(--color-purple-main);
-      }
-    }
-  }
-}
+//       .formbutton {
+//         padding: 12px;
+//         font-size: 1rem;
+//         outline: none;
+//         border: none;
+//         border-radius: 5px;
+//         margin-top: 1rem;
+//         background-color: var(--color-purple-light);
+//         color: var(--color-white-smoke);
+//         cursor: pointer;
+//         transition: 0.3s;
+//       }
+//       .formbutton:hover {
+//         background-color: var(--color-purple-main);
+//       }
+//     }
+//   }
+// }
 footer {
   .container {
     display: flex;

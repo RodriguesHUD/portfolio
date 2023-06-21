@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="shortcut icon" href="/images/icons/hudson-icon.ico" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -34,9 +35,6 @@
           </li>
           <li class="list-item">
             <a href="#references">References</a>
-          </li>
-          <li class="list-item">
-            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -135,14 +133,14 @@
         <div class="sites__container-card">
           <img src="images/sites/Animais Fantásticos.png" alt="" />
           <div class="coments">
-            <h2>Proj Origamid</h2>
+            <h2>Origamid</h2>
             <p>Comentário</p>
           </div>
         </div>
         <div class="sites__container-card">
           <img src="images/sites/CarnaDev.png" alt="" />
           <div class="coments">
-            <h2>Proj CarnaDev</h2>
+            <h2>Rocketseat</h2>
             <p>Comentário</p>
           </div>
         </div>
@@ -156,7 +154,7 @@
         <div class="sites__container-card">
           <img src="images/sites/ProjetoEstagiário.png" alt="" />
           <div class="coments">
-            <h2>Proj DevMedia</h2>
+            <h2>DevMedia</h2>
             <p>Comentário</p>
           </div>
         </div>
@@ -169,40 +167,73 @@
         <div class="recommend__container-card">
           <img src="/images/person/fabricio.jpg" alt="" />
           <div class="person">
-            <h2>Fabrício Mendes</h2>
+            <a
+              href="https://www.linkedin.com/in/fabr%C3%ADcio-mendes-a56860129/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="ph-light ph-linkedin-logo"></i>
+              Fabrício Mendes
+            </a>
             <p>Ele é terrorista, é especialista</p>
-            <span>DevOps in Vortigo</span>
+            <span>DevOps</span>
           </div>
         </div>
         <div class="recommend__container-card">
           <img src="/images/person/jefferson.jpg" alt="" />
           <div class="person">
-            <h2>Jefferson Toledo</h2>
+            <a
+              href="https://www.linkedin.com/in/jefferzomodelot/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="ph-light ph-linkedin-logo"></i>
+              Jefferson Toledo
+            </a>
             <p>Aí ó...</p>
-            <span>Front-end Enginer in Banco BV</span>
+            <span>Front-end Enginer</span>
           </div>
         </div>
         <div class="recommend__container-card">
-          <img src="/images/person/marcio.jpg" alt="" />
+          <img src="/images/person/yuri.jpeg" alt="" />
           <div class="person">
-            <h2>Márcio Pezzi</h2>
+            <a
+              href="https://www.linkedin.com/in/yuri-fraga-7428ba21b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="ph-light ph-linkedin-logo"></i>
+              Yuri Fraga
+            </a>
             <p>Muito teimoso</p>
-            <span>FullStack Developer</span>
+            <span>PHP developer</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="contact" id="contact">
+    <!-- <section class="contact" id="contact">
       <h1>Contact me</h1>
       <div class="contact__container">
-        <div class="form">
+        <form class="form" method="get" action="form.php">
           <div>
-            <input type="text" placeholder="Your name" class="inputs" />
+            <input
+              type="text"
+              name="nome"
+              placeholder="Your name"
+              class="inputs"
+              required
+            />
           </div>
 
           <div>
-            <input type="email" placeholder="E-mail" class="inputs" />
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="inputs"
+              required
+            />
           </div>
 
           <textarea
@@ -212,12 +243,13 @@
             cols="30"
             rows="10"
             placeholder="write your message:"
+            required
           ></textarea>
 
-          <button class="formbutton" type="submit">Send</button>
-        </div>
+          <button class="formbutton" type="submit" name="enviar">Send</button>
+        </form>
       </div>
-    </section>
+    </section> -->
 
     <footer>
       <div class="container">
