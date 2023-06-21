@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="/images/icons/hudson-icon.ico" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -23,22 +24,25 @@
       <nav class="navigation">
         <ul class="list">
           <li class="list-item">
-            <a href="">Home</a>
+            <a href="#about">About</a>
           </li>
           <li class="list-item">
-            <a href="">About</a>
+            <a href="#skills">Skills</a>
           </li>
           <li class="list-item">
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li class="list-item">
-            <a href="">Contact</a>
+            <a href="#references">References</a>
+          </li>
+          <li class="list-item">
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="content">
+      <section class="content" id="about">
         <img src="images/hudson-portfolio.jpeg" alt="" />
         <div class="content__text">
           <h1>Hudson Rodrigues</h1>
@@ -52,13 +56,15 @@
             in order to improve and be able to make codes that are not only
             functional, but also clean and easy to read. Let's talk! <br />
             <br />
-            <a>hudsondelimarodrigues@hotmail.com</a>
+            <a href="mailto:hudsondelimarodrigues@hotmail.com"
+              >hudsondelimarodrigues@hotmail.com</a
+            >
           </p>
         </div>
-      </div>
+      </section>
     </main>
 
-    <div class="ability">
+    <section class="ability" id="skills">
       <h1>My Skills</h1>
       <div class="ability__container">
         <div class="ability__container-sets">
@@ -121,9 +127,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="sites">
+    <section class="sites" id="projects">
       <h1>Recent Sites</h1>
       <div class="sites__container">
         <div class="sites__container-card">
@@ -155,9 +161,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="recommend">
+    <section class="recommend" id="references">
       <h1>Recommendations</h1>
       <div class="recommend__container">
         <div class="recommend__container-card">
@@ -165,7 +171,7 @@
           <div class="person">
             <h2>Fabrício Mendes</h2>
             <p>Ele é terrorista, é especialista</p>
-            <span>DevOps</span>
+            <span>DevOps in Vortigo</span>
           </div>
         </div>
         <div class="recommend__container-card">
@@ -173,7 +179,7 @@
           <div class="person">
             <h2>Jefferson Toledo</h2>
             <p>Aí ó...</p>
-            <span>Front-end Enginer</span>
+            <span>Front-end Enginer in Banco BV</span>
           </div>
         </div>
         <div class="recommend__container-card">
@@ -185,9 +191,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="contact">
+    <section class="contact" id="contact">
       <h1>Contact me</h1>
       <div class="contact__container">
         <div class="form">
@@ -211,28 +217,51 @@
           <button class="formbutton" type="submit">Send</button>
         </div>
       </div>
-    </div>
+    </section>
 
     <footer>
       <div class="container">
         <nav class="container__navigation">
           <img src="images/logo-hudson.svg" alt="" />
           <div class="container__navigation-item">
-            <a id="toplist" href="">Home</a>
-            <a href="">About</a>
-            <a href="">Projects</a>
+            <p id="toplist" href="">Home</p>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
           </div>
           <div class="container__navigation-item">
-            <a id="toplist" href="">Contact</a>
-            <a href="">E-mail</a>
-            <a href="">GitHub</a>
+            <p id="toplist" href="">Contact</p>
+            <a href="mailto:hudsondelimarodrigues@hotmail.com">E-mail</a>
+            <a
+              href="https://github.com/RodriguesHUD"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
           </div>
           <div class="container__navigation-social">
-            <a id="toplist" href="">Social</a>
+            <p id="toplist" href="">Social</p>
             <div class="social-icons">
-              <img src="images/icons/github.svg" alt="" />
-              <img src="images/icons/linkedin.svg" alt="" />
-              <img src="images/icons/whatsapp.svg" alt="" />
+              <a
+                href="https://github.com/RodriguesHUD"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/icons/github.svg" alt="" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hudson-rodrigues-183620204/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/icons/linkedin.svg" alt="" />
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=5521977174087"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/icons/whatsapp.svg" alt="" />
+              </a>
             </div>
           </div>
         </nav>
