@@ -225,27 +225,27 @@
 
 @mixin respond-to($breakpoint) {
   @if $breakpoint == "xxsmall" {
-    @media (min-width: 374px) {
+    @media (max-width: 374px) {
       @content;
     }
   } @else if $breakpoint == "device" {
-    @media (min-width: 576px) {
+    @media (max-width: 576px) {
       @content;
     }
   } @else if $breakpoint == "small" {
-    @media (min-width: 767px) {
+    @media (max-width: 767px) {
       @content;
     }
   } @else if $breakpoint == "medium" {
-    @media (min-width: 992px) {
+    @media (max-width: 992px) {
       @content;
     }
   } @else if $breakpoint == "large" {
-    @media (min-width: 1200px) {
+    @media (max-width: 1200px) {
       @content;
     }
   } @else if $breakpoint == "extra-large" {
-    @media (min-width: 1500px) {
+    @media (max-width: 1500px) {
       @content;
     }
   }
