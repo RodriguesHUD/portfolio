@@ -125,6 +125,7 @@ main {
   flex-direction: column;
   @include respond-to("tablet") {
     flex-direction: row;
+    height: 100vh;
   }
 
   .content {

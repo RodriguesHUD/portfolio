@@ -131,6 +131,7 @@ main {
 @media (min-width: 992px) {
   main {
     flex-direction: row;
+    height: 100vh;
   }
 }
 main .content {
