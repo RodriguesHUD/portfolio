@@ -232,12 +232,24 @@
     @media (max-width: 576px) {
       @content;
     }
+  } @else if $breakpoint == "cel" {
+    @media (min-width: 576px) {
+      @content;
+    }
   } @else if $breakpoint == "small" {
     @media (max-width: 767px) {
       @content;
     }
+  } @else if $breakpoint == "ipad" {
+    @media (min-width: 767px) {
+      @content;
+    }
   } @else if $breakpoint == "medium" {
     @media (max-width: 992px) {
+      @content;
+    }
+  } @else if $breakpoint == "tablet" {
+    @media (min-width: 992px) {
       @content;
     }
   } @else if $breakpoint == "large" {
