@@ -21,9 +21,35 @@
   <body>
     <header>
       <img class="navigation-logo" src="images/logo-hudson.svg" alt="" />
-      <img class="navigation-group" src="images/icons/list.svg" alt="" />
       <nav class="navigation">
         <ul class="list">
+          <li class="list-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="list-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="list-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="list-item">
+            <a href="#references">References</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="mobile">
+        <!-- <button class="burguerBtn" onclick="changeIcon()">
+          <i id="iconList" class="ph-bold ph-list"></i>
+          <i id="iconX" class="ph-bold ph-x hidden"></i>
+        </button> -->
+
+        <button class="burguerBtn" onclick="changeIcon()">
+          <i id="iconList" class="ph-bold ph-list"></i>
+          <i id="iconX" class="ph-bold ph-x"></i>
+        </button>
+
+        <ul class="list-mobile open">
           <li class="list-item">
             <a href="#about">About</a>
           </li>
