@@ -17,10 +17,12 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   justify-content: space-between;
   background-color: none;
   box-shadow: 0.1px 0.1px 3px rgba(0, 0, 0, 0.568);
-  padding: 0 13%;
 }
 header .navigation {
   display: flex;
@@ -81,6 +83,7 @@ header .mobile .burguerBtn {
   width: 50px;
   position: absolute;
   right: 0;
+  top: 17px;
   background-color: transparent;
   border: none;
   cursor: pointer;
