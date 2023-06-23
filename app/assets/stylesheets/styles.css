@@ -418,10 +418,12 @@ main .content__text p a:hover {
   gap: 0.625rem;
 }
 .recommend__container-card .person a {
+  display: block;
   text-align: center;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 1.5rem;
   flex-direction: row;
   line-height: 30px;
