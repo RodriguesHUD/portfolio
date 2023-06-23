@@ -16,18 +16,12 @@ linksInternos.forEach((link) => {
 });
 
 const toggleBtn = document.querySelector(".burguerBtn");
-const toggleBtnIcon = document.querySelector(".burguerBtn img");
+const toggleBtnIcon = document.querySelector(".burguerBtn i");
 const dropDownMenu = document.querySelector(".list-mobile");
 
 toggleBtn.onclick = function () {
   dropDownMenu.classList.toggle("open");
   const isOpen = dropDownMenu.classList.contains("open");
+
+  toggleBtnIcon.classList = isOpen ? "ph-bold ph-x" : "ph-bold ph-list";
 };
-
-function changeIcon() {
-  var iconList = document.getElementById("iconList");
-  var iconX = document.getElementById("iconX");
-
-  iconList.classList.toggle("hidden");
-  iconX.classList.toggle("hidden");
-}
