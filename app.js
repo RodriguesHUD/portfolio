@@ -25,3 +25,4 @@ toggleBtn.onclick = function () {
 
   toggleBtnIcon.classList = isOpen ? "ph-bold ph-x" : "ph-bold ph-list";
 };
+dropDownMenu.classList.remove("open");
