@@ -502,8 +502,15 @@ footer {
     &__navigation {
       display: flex;
       flex-wrap: wrap;
-      gap: 129px;
+      gap: 35px;
+      flex-direction: column;
+      align-items: center;
       margin: 64px 0px 64px 0px;
+      @include respond-to("tablet") {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 129px;
+      }
       img {
         display: flex;
         padding: 3px;
@@ -516,6 +523,14 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        a {
+          text-align: center;
+          display: block;
+          @include respond-to("tablet") {
+            text-align: start;
+            display: flex;
+          }
+        }
       }
       &-social {
         display: flex;
@@ -525,6 +540,10 @@ footer {
           display: flex;
           cursor: pointer;
           transition: 3s ease;
+          gap: 1rem;
+          a {
+            display: contents;
+          }
         }
 
         img {
@@ -539,6 +558,10 @@ footer {
   }
   #toplist {
     color: var(--color-purple-light);
+    text-align: center;
+    @include respond-to("tablet") {
+      text-align: start;
+    }
   }
 }
 .copyright {
@@ -550,6 +573,7 @@ footer {
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 16px;
+    text-align: center;
     letter-spacing: 0.4px;
   }
 }
