@@ -353,6 +353,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h1 {
+    font-size: 1.875rem;
+    @include respond-to("tablet") {
+      font-size: 1.875rem;
+    }
+  }
   &__container {
     max-width: 1200px;
     width: 100%;
@@ -490,6 +496,7 @@ footer {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: center;
     border-top: 1px solid var(--color-purple-light);
     border-bottom: 1px solid var(--color-purple-light);
     &__navigation {
